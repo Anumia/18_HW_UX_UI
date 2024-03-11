@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anum Mian Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo."></rel>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            margin: 0 15px;
+        }
+
+        .logo {
+            width: 10%;
+        }
+
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .heroImg {
+            text-align: center;
+            padding: 50px;
+            width: 100%;
+        }
+
+        #anum_img {
+            width: 40%;
+            border-radius: 50%;
+        }
+
+        .heroImg p {
+            margin-top: 20px;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .project-info {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .project-info img {
+            width: 40%;
+            margin-right: 20px;
+        }
+
+        .project-info div {
+            width: 60%;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .skills-container img {
+            width: 50px;
+            margin: 0 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        footer ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        footer li {
+            margin: 0 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <img class="logo" src="images/logo.png" alt="AM">
+        <ul>
+            <li class="inline-block"><a href="#Home">Home</a></li>
+            <li class="inline-block"><a href="#about">About</a></li>
+            <li class="inline-block"><a href="#skills">Skills</a></li>
+            <li class="inline-block"><a href="#work">Work</a></li>
+            <li class="inline-block"><a href="#contact"><button>Contact</button></a></li>
+        </ul>
+    </header>
+
+    <!-- Hero Image Section -->
+    <section class="heroImg">
+        <div class="content">
+            <img id="anum_img" style="width: 40%;" src="images/anum.png" alt="Your Picture Alt Text">
+            <p>Hello, I'm Anum, a passionate UX/UI designer on a mission to transform user experiences.</p>
+            <button>Download Resume</button>
+        </div>
+    </section>
+
+    <!-- Projects and Skills Section -->
+    <div class="container">
+        <h1>Projects</h1>
+        <div class="project-info">
+            <img src="images/UNICEF.png" alt="Image 1">
+            <div>
+                <h2>UNICEF Canada</h2>
+                <h3>Redesign Of United Nation's Children's Fund Canada</h3>
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <br>
+
+        <h1>My Skills & Tools</h1>
+        <div class="skills-container">
+            <img src="images/Figma.png" alt="Figma">
+            <img src="images/HTML.png" alt="HTML">
+            <img src="images/Miro.png" alt="Miro">
+            <img src="images/Procreate.png" alt="Procreate">
+            <img src="images/Trello.png" alt="Trello">
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <ul>
+            <li class="inline-block">Home</li>
+            <li class="inline-block">About</li>
+            <li class="inline-block">Skills</li>
+            <li class="inline-block">Work</li>
+            <li class="inline-block">Contact</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
